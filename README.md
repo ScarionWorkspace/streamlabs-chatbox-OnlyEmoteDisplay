@@ -22,7 +22,7 @@ This script customizes the Streamlabs Chat Box widget to only display emotes in 
 
 ### Step 4: Add the Script
 - In the Chat Box settings, scroll to the **Custom JS** section and paste the following script:
-
+```
 ```javascript
 document.addEventListener('onLoad', function(obj) {
   console.log("Chat widget loaded");
@@ -88,7 +88,8 @@ document.addEventListener('onEventReceived', function(obj) {
     console.log("No last message found in the log.");
   }
 });
-
+```
+```markdown
 ### Step 5: Save and Start
 - After pasting the code, save your settings.
 - Test the widget by sending messages with emotes in your chat to confirm that only emotes appear in the widget.
