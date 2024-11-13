@@ -1,4 +1,4 @@
-```markdown
+
 # Streamlabs Chat Box Emote-Only Display
 
 This script customizes the Streamlabs Chat Box widget to only display emotes in messages.
@@ -23,7 +23,6 @@ All text content is removed, so the chat box shows only the emotes that users se
 
 ### Step 4: Add the Script
 - In the Chat Box settings, scroll to the **Custom JS** section and paste the following script:
-```
 ```javascript
 document.addEventListener('onLoad', function(obj) {
   console.log("Chat widget loaded");
@@ -90,7 +89,7 @@ document.addEventListener('onEventReceived', function(obj) {
   }
 });
 ```
-```markdown
+
 ### Step 5: Save and Start
 - After pasting the code, save your settings.
 - Test the widget by sending messages with emotes in your chat to confirm that only emotes appear in the widget.
@@ -100,4 +99,4 @@ document.addEventListener('onEventReceived', function(obj) {
 - Text content in messages will not appear in the chat box widget, giving an emote-only display.
 
 Happy streaming! 🎉
-```
+
