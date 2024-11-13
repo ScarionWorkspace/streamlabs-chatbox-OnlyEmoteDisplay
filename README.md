@@ -1,7 +1,8 @@
 ```markdown
 # Streamlabs Chat Box Emote-Only Display
 
-This script customizes the Streamlabs Chat Box widget to only display emotes in messages. All text content is removed, so the chat box shows only the emotes that users send. 
+This script customizes the Streamlabs Chat Box widget to only display emotes in messages.
+All text content is removed, so the chat box shows only the emotes that users send. 
 
 ## Features
 - Displays only `span.emote` elements in the chat box, removing all text content.
