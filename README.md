@@ -97,6 +97,8 @@ document.addEventListener('onEventReceived', function(obj) {
 ## Notes
 - This script applies to all `span.emote` elements, so any emote added to a message will be displayed.
 - Text content in messages will not appear in the chat box widget, giving an emote-only display.
+- If you add any of the following Checks it will work aswell for these
+<img width="290" alt="Bildschirmfoto 2024-11-14 um 20 22 17" src="https://github.com/user-attachments/assets/a557afeb-3f71-430a-9f0b-4c7a80e9355e">
 
 Happy streaming! 🎉
 
